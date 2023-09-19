@@ -1,0 +1,17 @@
+.nbcontainer{
+    display: flex;
+    justify-content: space-evenly;
+    font-family: 'Lalezar', cursive;
+}
+.title{
+    margin: 0;
+    padding: 15px 0 0 25px;
+    font-size: 25px;
+}
+.list{
+    padding:15px 25px 0 0;
+    display: flex;
+    list-style: none;
+    gap: 25px;
+    font-size: 23px;
+}

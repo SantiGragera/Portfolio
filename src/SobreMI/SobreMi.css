@@ -1,0 +1,22 @@
+.sobremiContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 45px;
+    height: 400px;
+}
+.smTitle{
+    margin: 0;
+    font-size: 40px;
+    font-family: 'Lalezar', cursive;
+    line-height: 35px;
+}
+.smPara{
+    width: 40%;
+    margin: 0;
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    text-align: center;
+}

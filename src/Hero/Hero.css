@@ -1,0 +1,39 @@
+.heroContainer{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    gap: 120px;
+}
+.txtsHero{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 550px;
+}
+.heroTitle{
+    margin: 0;
+    font-size: 50px;
+    font-family: 'Lalezar', cursive;
+    line-height: 35px;
+}
+.heroPara{
+    width: 450px;
+    margin: 0;
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+}
+.lygContainer{
+    padding-top: 10px;
+    display: flex;
+    gap: 15px;
+}
+.heroContact{
+    width: 25px;
+}
+.heroContact:hover{
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}

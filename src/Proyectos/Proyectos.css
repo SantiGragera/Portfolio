@@ -1,0 +1,67 @@
+/* .proyectsContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 150px;
+}
+.proyectos{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 150px;
+}
+.resolved{
+    padding: 55px;
+    border: 1px solid black;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+    border-radius: 55px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+}
+.imgProyect{
+    width: 600px;
+    border-radius: 50px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+.txtsProy{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 15px;
+    width: 600px;
+}
+.proyPara{
+    width: 400px;
+    margin: 0;
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+}
+.logosCont{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    cursor: pointer;
+}
+.hover{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    text-decoration: none;
+}
+.logoTxt{
+    font-family: 'Lalezar', cursive;
+    color: black;
+}
+.logosProy{
+    width: 30px;
+    height: 30px;
+    border-radius: 25px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+} */

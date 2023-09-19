@@ -1,0 +1,37 @@
+.skillContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 45px;
+    height: 350px;
+    padding-top: 25px;
+    margin-top: 180px;
+    margin-bottom: 180px;
+}
+.skillTitle{
+    margin: 0;
+    font-size: 40px;
+    font-family: 'Lalezar', cursive;
+    line-height: 35px;
+}
+.txts_logos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+}
+.skillPara{
+    width: 430px;
+    margin: 0;
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+}
+.skill_logos{
+    width: 430px;
+}
+.skill_logos img{
+    width: 75px;
+    padding: 20px;
+}
