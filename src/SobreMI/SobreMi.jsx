@@ -3,7 +3,7 @@ import './SobreMi.css'
 
 const SobreMi = () => {
     return (
-        <div className='sobremiContainer'>
+        <div className='sobremiContainer' id='sobremi'>
             <h1 className='smTitle'>Sobre Mí</h1>
             <p className='smPara'>
                 Soy Santiago Gragera, un desarrollador Front-End de 18 años de edad. Elegí este camino impulsado por mi profunda fascinación por la tecnología y

@@ -1,0 +1,56 @@
+.todoContacto{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.titleContacto{
+    font-size: 40px;
+    font-family: 'Lalezar', cursive;
+    line-height: 35px;
+    width: 960px;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 25px 0 45px 0;
+    border-radius: 50px 50px 0 0 ;
+}
+.juntoContact{
+    display: flex;
+    width: 930px;
+    justify-content: center;
+    padding: 15px;
+    border-radius: 0 0 50px 50px;
+}
+.metodos{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    gap: 15px;
+}
+.linkedin, .email, .numerocelu{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+.logosContacto{
+    width: 30px;
+}
+.txtsMetodos{
+    font-family: 'Raleway', sans-serif;
+    margin: 0;
+}
+.texto_de_contacto{
+    width: 50%;
+}
+.contactoPara{
+    font-weight: 700;
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    margin: 0;
+}
+.linkdedin{
+    color: black;
+    text-decoration: none;
+}

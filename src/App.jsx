@@ -1,4 +1,5 @@
 import './App.css'
+import Contacto from './Contacto/Contacto'
 import Hero from './Hero/Hero'
 import NavBar from './NavBar/NavBar'
 import ProyectosDos from './ProyectosV2/ProyectosDos'
@@ -15,6 +16,7 @@ function App() {
     <SobreMi />
     <Skills />
     <ProyectosDos />
+    <Contacto />
     </>
   )
 }

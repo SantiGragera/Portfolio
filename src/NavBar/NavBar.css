@@ -2,16 +2,26 @@
     display: flex;
     justify-content: space-evenly;
     font-family: 'Lalezar', cursive;
+    position: fixed;
+    width: 100%;
+    background-color: white;
+    top: 0;
+    left: 0;
+    z-index: 1;
 }
 .title{
     margin: 0;
     padding: 15px 0 0 25px;
     font-size: 25px;
+    cursor: pointer;
 }
 .list{
-    padding:15px 25px 0 0;
+    padding:15px 25px 15px 0;
     display: flex;
     list-style: none;
     gap: 25px;
     font-size: 23px;
+}
+.list_item{
+    cursor: pointer;
 }
