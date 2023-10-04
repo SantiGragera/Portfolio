@@ -3,9 +3,7 @@ import {Link} from 'react-scroll'
 import './NavBar.css'
 
 const NavBar = () => {
-
-  const targetRef = useRef(null)
-
+  
   return (
     <div className='nbcontainer'>
         <p className='title'>

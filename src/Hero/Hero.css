@@ -37,3 +37,44 @@
 .heroContact:hover{
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
 }
+
+@media (max-width: 1000px){
+    .heroContainer{
+        gap: 0px;
+    }
+    .heroTitle{
+        font-size: 40px;
+    }
+    .fotoHero{
+        width: 300px;
+    }
+}
+@media (max-width: 700px){
+    .heroContainer{
+        flex-direction: column;
+        gap: 40px;
+    }
+    .txtsHero{
+        text-align: center;
+        align-items: center;
+        width: 100%;
+    }
+    .heroPara{
+        width: 100%;
+    }
+    .lygContainer{
+        justify-content: center;
+    }
+}
+@media (max-width: 540px){
+    .heroTitle{
+        font-size: 30px;
+    }
+    .heroPara{
+        font-size: 15px;
+        width: 75%;
+    }
+    .fotoHero{
+        width: 250px;
+    }
+}

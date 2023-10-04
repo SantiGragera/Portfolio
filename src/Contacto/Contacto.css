@@ -54,3 +54,28 @@
     color: black;
     text-decoration: none;
 }
+
+@media (max-width: 1000px){
+    .todoContacto{
+        gap: 35px;
+        margin-bottom: 50px;
+    }
+    .titleContacto{
+        padding: 0;
+        width: 100%;
+    }
+    .juntoContact{
+        padding: 0;
+        flex-direction: column;
+        align-items: center;
+        gap: 25px;
+        width: 100%;
+    }
+    .metodos{
+        width: 100%;
+        align-items: center;
+    }
+    .contactoPara{
+        font-size: 18px;
+    }
+}

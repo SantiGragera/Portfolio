@@ -18,7 +18,7 @@ const Hero = () => {
                 </a>
               </div>
         </div>
-        <img src="/foto.svg" alt="fotoMia" />
+        <img src="/foto.svg" alt="fotoMia" className='fotoHero' />
     </div>
   )
 }

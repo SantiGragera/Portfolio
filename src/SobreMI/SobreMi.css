@@ -20,3 +20,28 @@
     font-weight: 700;
     text-align: center;
 }
+
+@media (max-width:1000px){
+    .smPara{
+        width: 70%;
+    }
+}
+@media (max-width:1000px){
+    .smPara{
+        width: 90%;
+    }
+    .sobremiContainer{
+        gap: 30px;
+    }
+}
+@media (max-width:550px){
+    .smPara{
+        font-size: 15px;
+    }
+    .smTitle, .skillTitle, .titleContacto {
+        font-size: 30px;
+    }
+    .skillPara, .proyPara, .contactoPara, .txtsMetodos, .lutz p {
+        font-size: 15px;
+    }
+}

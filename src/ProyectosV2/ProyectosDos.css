@@ -73,3 +73,38 @@
 .imgSkills{
     width: 50px;
 }
+
+@media (max-width:1000px){
+    .cardProyectos{
+        width: 90%;
+        align-items: center;
+    }
+    .imgContainer{
+        height: 80%;
+    }
+    .proyPara{
+        font-size: 15px;
+    }
+}
+@media (max-width:700px){
+    .todoProy{
+        margin-bottom: 100px;
+    }
+    .cardProyectos{
+        flex-direction: column;
+        gap: 20px;
+        height: 100%;
+    }
+    .txtsProyectos{
+        width: 100%;
+        align-items: center;
+    }
+    .proyPara, .lutz p{
+        text-align: center;
+        width: 100%;
+        font-size: 18px;
+    }
+    .imgSkills{
+        width: 35px;
+    }
+}
