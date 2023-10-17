@@ -37,6 +37,10 @@
 .heroContact:hover{
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
 }
+.fotoHero{
+    filter: grayscale(100%);
+    transition: all .4s ;
+}
 
 @media (max-width: 1000px){
     .heroContainer{
