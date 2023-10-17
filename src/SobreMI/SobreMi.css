@@ -20,6 +20,30 @@
     font-weight: 700;
     text-align: center;
 }
+.botonCV{
+    width: 150px;
+    height: 30px;
+    border: none;
+    background-color: black;
+    border-radius: 25px;
+    transition: all .3s ease-in-out;
+}
+.anchorCV{
+    text-decoration: none;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    display: block;
+    width: 100%;
+}
+.botonCV:hover{
+    cursor: pointer;
+    background-color: white;
+    border: 1px solid black;
+}
+.anchorCV:hover{
+    color: black;
+}
 
 @media (max-width:1000px){
     .smPara{

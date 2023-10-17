@@ -15,6 +15,11 @@ const SobreMi = () => {
                 las herramientas necesarias para dar vida a mis propios proyectos y conceptos creativos, los cuales se presentan en este portfolio.
                 Les doy la bienvenida a explorar mi trabajo y espero que disfruten de las creaciones que aquí les presento.
             </p>
+            <button className='botonCV'>
+                <a className='anchorCV' href="/cv.pdf" download>
+                    Descargar CV
+                </a>
+            </button>
         </div>
     )
 }
